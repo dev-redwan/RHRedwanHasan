@@ -1,0 +1,36 @@
+
+/* Services Section */
+@media (max-width:992px){
+
+}
+
+@media (max-width:768px) {
+    .Services-box {
+        flex-basis: 100%;
+        margin-right: 0;
+        max-width: 100%;
+    }
+}
+
+/* Contact page css section */
+@media (max-width:992px) {
+    .align-self-stretch.box.p-4.d-flex {
+        display: unset !important;
+    }
+    .contact-info.mb-5 {
+        display: unset;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px) {
+    .col-lg-4.col-md-6.col-sm-6.Services-box {
+        margin: 0 15px;
+        margin-bottom: 30px;
+    }
+}
+/* Contact page css section End */
+
+/* About Page css  */
+
+/* About Page css End */

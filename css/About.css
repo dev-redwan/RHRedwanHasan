@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+/* Navber Section */
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    color: #fff !important;
+}
+.ftco-navbar-light.scrolled .nav-item > .nav-link {
+    color: #000 !important;
+}
+/* Navber Section End */
+
+/* Hero Section */
+.hero-wrap .overlay {
+    opacity: .4;
+}
+.hero-wrap {
+    height: 490px !important;
+    background-attachment: fixed;
+    background-position-y: center;
+}
+.col-md-12.ftco-animate.pb-5.mb-3.text-center.fadeInUp.ftco-animated {
+    position: relative;
+    top: -200px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.slider-text .breadcrumbs span a:hover i {
+    color: #0078d7 !important;
+}
+.slider-text .breadcrumbs span a:hover {
+    color: #0078d7 !important;
+}
+/* Hero Section End */
+
+/* Main About Section */
+.details-my{
+    margin-bottom: 30px !important;
+}
+.details-my li{
+    margin-bottom: 10px;
+    display: flex;
+}
+.details-my li strong{
+    font-weight: 600;
+    color: #000000;
+    width: 130px;
+}
+.details-my li span{
+    width: calc(100% - 130px);
+    font-weight: 600;
+    color: #b1b493;
+}
+.ftco-about .my-interest .interest-wrap .icon span {
+    color: #000000;
+    font-size: 18px;
+}
+.ftco-about .my-interest .interest-wrap .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #0076d756;
+}
+.ftco-about .my-interest .interest-wrap .text {
+    font-weight: 600;
+    color: #000000;
+    padding-left: 5px;
+}
+.counter-wrap.ftco-animate.mt-md-3.fadeInUp.ftco-animated h4{
+    color: #0078d7 !important;
+    font-weight: 700;
+}
+.intro-sort {
+    color: #1d1f22;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-size: 23px;
+}
+.flaticon img {
+    width: 27px;
+    padding: 1px;
+}
+/* Main About Section End */

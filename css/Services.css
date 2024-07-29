@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+
+/* Navber Section */
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+    color: #fff !important;
+}
+.ftco-navbar-light.scrolled .nav-item > .nav-link {
+    color: #000 !important;
+}
+/* Navber Section End */
+
+/* Hero Section */
+.hero-wrap .overlay {
+    opacity: .4;
+}
+.hero-wrap {
+    height: 490px !important;
+    background-attachment: fixed;
+    position: relative;
+    background-position-y: center;
+}
+.col-md-12.ftco-animate.pb-5.mb-3.text-center.fadeInUp.ftco-animated {
+    position: relative;
+    top: -200px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.slider-text .breadcrumbs span a:hover i {
+    color: #0078d7 !important;
+}
+.slider-text .breadcrumbs span a:hover {
+    color: #0078d7 !important;
+}
+/* Hero Section End */
+
+/* Main Services Section */
+.Services-top-text {
+    text-align: center;
+}
+.Services-top-text h3 {
+    font-size: 50px;
+    color: #0078d7 !important;
+    font-weight: 700;
+}
+.Services-top-text span {
+    font-size: 22px;
+}
+.Services-top-text p {
+    font-size: 18px;
+}
+.services__item {
+    display: unset;
+}
+.Services-box{
+    background: #fafafa !important;
+    box-shadow: 0px 0px 11px 1px rgb(0 0 0 / 10%) !important;
+    padding: 20px;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 6px;
+    flex-basis: 31%;
+}
+.rima0{
+    margin-right: 0;
+}
+.services__item__icon {
+    margin-bottom: 25px;
+}
+.services__item:hover{
+    box-shadow: 0px 0px 11px 1px rgb(0 120 215 / 20%);
+    transition: .7s;
+}
+/* Main Services Section End */
+
+/* Protfolio Page Section */
+.portfolio{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+
+.pagination__option .arrow__pagination {
+    font-size: 15px;
+    color: #0078d7;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.pagination__option .arrow__pagination.right__arrow {
+    margin-left: 18px;
+}
+.pagination__option .number__pagination {
+    font-size: 18px;
+    color: #0078d7;
+    height: 50px;
+    width: 50px;
+    background: rgba(242, 242, 242, 0.1);
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    margin-right: 6px;
+}
+.pagination__option .arrow__pagination {
+    font-size: 15px;
+    color: #0078d7;
+    display: inline-block;
+    text-transform: uppercase;
+}
+.pagination__option .arrow__pagination.left__arrow {
+    margin-right: 26px;
+}
+.pagination__option {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Protfolio Page Section End */
+
+/* Contact Page css Section */
+.top-informetion .mb-2.pb-1 {
+    text-align: center;
+}
+.top-informetion .mb-2.pb-1 h2{
+    font-size: 30px;
+}
+.contact-info.mb-5 {
+    display: flex;
+}
+.box.p-4.d-flex img {
+    width: 60px;
+}
+.contact-section .box h3 {
+    font-size: 21px !important;
+    font-weight: 600;
+    font-family: 'Poppins';
+}
+.icon-btext p {
+    font-weight: 500;
+    font-family: 'Poppins';
+    font-size: 19px;
+    margin-top: 6px;
+}
+
+.form-label {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    font-family: -webkit-pictograph;
+    color: #999999;
+    margin-right: 5px;
+}
+.cr-d {
+    width: 20px;
+    height: 39px;
+}
+.Ad-Ser span {
+    font-size: 20px;
+    margin: 0px 20px 0px 5px;
+}
+
+.Form-left-conten {
+    background-image: url(../images/rgrhfgh-1-680x680.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 73px;
+}
+.Form-left-conten h3{
+    font-size: 25px;
+    color: #0078d7;
+    padding: 0 25px;
+    font-weight: 500;
+}
+.Form-left-conten img {
+    width: 60px;
+    height: 60px;
+    margin-top: 9px;
+}
+.text-left-form {
+    display: flex;
+    padding: 10px;
+    background: #fafafa;
+    border-radius: 20px;
+    margin-top: -25px;
+}
+.btn-sub {
+    margin-top: 20px;
+    margin-bottom: 0 !important;
+}
+/* Contact Page css Section End */
